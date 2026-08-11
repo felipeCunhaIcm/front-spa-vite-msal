@@ -1,0 +1,31 @@
+{
+  "name": "front-spa-vite-msal",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Template mínimo de SPA com Vite, TypeScript e Microsoft Entra ID usando MSAL Browser.",
+  "keywords": [
+    "entra-id",
+    "msal",
+    "oauth2",
+    "openid-connect",
+    "pkce",
+    "vite"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "typecheck": "tsc --noEmit",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@azure/msal-browser": "^5.18.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0",
+    "vite": "^5.4.0"
+  }
+}
